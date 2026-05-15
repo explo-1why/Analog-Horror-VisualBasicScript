@@ -1,6 +1,4 @@
-msgbox "WARNING"
-msgbox "The story hasn't started yet."
-msgbox "This is NOT part of the  story."
+
 decision=inputbox("Start the story now? Enter no to not start or yes start.")
 if decision="no" Then
 	Wscript.quit
